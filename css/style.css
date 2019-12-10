@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+h3 {
+    text-transform: uppercase;
+    color: rgb(8, 223, 212);
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+.red {
+    color: red; text-align: center; font-style: italic; border-bottom: 1px solid #000;
+}
+#heading {
+    border-bottom: 1px solid #000;
+}
+h2 {
+    text-transform: full-size-kana;
+    color: rgb(7, 18, 173);
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-style: italic;
+}
+.green {
+    color: green; text-align: center; font-style: italic;
+}
+.navy {
+    text-decoration-color: navy;
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+}
+.text {
+    text-align: left;
+    font-style: italic;
+    text-indent: 50px;
+    font-size: larger;
+}
