@@ -48,9 +48,13 @@ list-style-image: url(../img2/arrow2.png);
 }
 @font-face {
     font-family: FontName;
-    src:url('path/filename.eot');
-    src:url('path/filename.eot?#iefix') format('embedded-opentype'),
-        url('path/filename.woff2') format('woff2'),
-        url('path/filename.woff') format('woff'),
-        url('path/filename.ttf') format('truetype');
+    src:url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.otf') format('otf');
+}
+@font-face {
+    font-family: "FontName 2";
+    src:url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
 }
