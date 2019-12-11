@@ -37,12 +37,6 @@ h2 {
     text-align: center;
 }
 
-.green {
-    color: green; 
-    text-align: center; 
-    font-style: italic;
-}
-
 .navy {
     text-decoration-color: navy;
     text-decoration-line: overline;
@@ -62,8 +56,16 @@ h2 {
     list-style-image: url(../img2/arrow2.png);
 }
 
-    ol {
+    li {
         font-family: Montserrat, Arial, sans-serif;
+        color: green; 
+        text-align: left; 
+        font-style: italic;
+    }
+
+    ol {
+        display: table;
+        margin: auto;
     }
 
     p {
@@ -85,4 +87,3 @@ h2 {
       font-size: 0.60em;
   }
 
-  
