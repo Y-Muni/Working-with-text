@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+html {
+    font-size: 10px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -56,34 +60,30 @@ h2 {
     list-style-image: url(../img2/arrow2.png);
 }
 
-    li {
-        font-family: Montserrat, Arial, sans-serif;
-        color: green; 
-        text-align: left; 
-        font-style: italic;
-    }
+li {
+    font-family: Montserrat, Arial, sans-serif;
+    color: green; 
+    text-align: left; 
+    font-style: italic;
+}
 
-    ol {
-        display: table;
-        margin: auto;
-    }
+ol {
+    display: table;
+    margin: auto;
+}
 
-    p {
-        font-family: Roboto, Arial, sans-serif;
-        text-align: center;
-        font-style: italic;
-    }
+p {
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
 
-    .size {
-        /*font-family: 'Lobster', cursive; font-family: 'Source Code Pro', monospace;*/
-        font-family: 'Roboto', sans-serif;
-    }
+.size {
+    /*font-family: 'Lobster', cursive; font-family: 'Source Code Pro', monospace;*/
+    font-family: 'Roboto', sans-serif;
+}
 
-  .complex {
-      font-size: 20px;
-  }
-
-  .complex span {
-      font-size: 0.60em;
-  }
+.complex span {
+    font-size: 0.60em;
+}
 
