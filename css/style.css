@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto|Source+Code+Pro:700&display=swap&subset=cyrillic');
+
+@font-face {
+    font-family: Montserrat;
+    src:url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src:url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
 * {
     box-sizing: border-box;
 }
@@ -47,38 +67,23 @@ h2 {
 }
 
 .skills {
-list-style: none;
-list-style-image: url(../img2/arrow2.png);
+    list-style: none;
+    list-style-image: url(../img2/arrow2.png);
 }
-
-@font-face {
-    font-family: Montserrat;
-    src:url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
-        url('../fonts/montserrat-regular-webfont.woff') format('woff'),
-        url('../fonts/Montserrat-Regular.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Roboto;
-    src:url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-        url('../fonts/roboto-regular-webfont.woff') format('woff'),
-        url('../fonts/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
 
     ol {
-        font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+        font-family: Montserrat, Arial, sans-serif;
     }
 
     p {
-        font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+        font-family: Roboto, Arial, sans-serif;
         text-align: center;
         font-style: italic;
     }
 
-    @import url('https://fonts.googleapis.com/css?family=Lobster|Source+Code+Pro:700&display=swap&subset=cyrillic');
+    .size {
+        /*font-family: 'Lobster', cursive; font-family: 'Source Code Pro', monospace;*/
+        font-family: 'Roboto', sans-serif;
+    }
 
-    
+  
