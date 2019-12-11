@@ -9,15 +9,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: Roboto;
-    src:url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-        url('../fonts/roboto-regular-webfont.woff') format('woff'),
-        url('../fonts/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-
 * {
     box-sizing: border-box;
 }
@@ -85,5 +76,13 @@ h2 {
         /*font-family: 'Lobster', cursive; font-family: 'Source Code Pro', monospace;*/
         font-family: 'Roboto', sans-serif;
     }
+
+  .complex {
+      font-size: 20px;
+  }
+
+  .complex span {
+      font-size: 0.60em;
+  }
 
   
