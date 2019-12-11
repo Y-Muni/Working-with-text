@@ -1,60 +1,84 @@
 * {
     box-sizing: border-box;
 }
+
 h3 {
     text-transform: uppercase;
     color: rgb(8, 223, 212);
     border-bottom: 1px solid #000;
     text-align: center;
 }
+
 .red {
     color: red; 
     text-align: center; 
     font-style: italic; 
     border-bottom: 1px solid #000;
 }
+
 #heading {
     border-bottom: 1px solid #000;
 }
+
 h2 {
     text-transform: uppercase;
     color: rgb(7, 18, 173);
     text-align: center;
 }
-p {
-    text-align: center;
-    font-style: italic;
-}
+
 .green {
     color: green; 
     text-align: center; 
     font-style: italic;
 }
+
 .navy {
     text-decoration-color: navy;
     text-decoration-line: overline;
     text-decoration-style: dotted;
     text-align: center; 
 }
+
 .text {
     text-align: left;
     font-style: italic;
     text-indent: 50px;
     font-size: 20px;
 }
+
 .skills {
 list-style: none;
 list-style-image: url(../img2/arrow2.png);
 }
+
 @font-face {
-    font-family: FontName;
+    font-family: Montserrat;
     src:url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
         url('../fonts/Montserrat-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-    font-family: "FontName 2";
+    font-family: Roboto;
     src:url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
         url('../fonts/roboto-regular-webfont.woff') format('woff'),
         url('../fonts/Roboto-Regular.ttf') format('truetype');
-}
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    ol {
+        font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p {
+        font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-style: italic;
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Lobster|Source+Code+Pro:700&display=swap&subset=cyrillic');
+
+    
