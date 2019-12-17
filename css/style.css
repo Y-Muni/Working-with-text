@@ -112,4 +112,6 @@ p {
 
 body {
     background-image: url(../img3/bg.png);
+    background-repeat: no-repeat; 
+    background-position: center
 }
