@@ -85,16 +85,15 @@ p {
     background-color: violet;
     color: #fff;
     padding: 10px 15px;
-    margin: 0 0 50px;
+    margin: 0px 0 50px;
     height: 100vh;
-
+}
     /* СКРУГЛЕНИЕ!!! border-radius: 50px 0; */
     /* РАМКА!!! outline: 1px solid red;*/
     /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; */
-}
 
 .product-item:first-child {
-    background: url(../img3/pic.jpg);
+    background: url(../img3/pic.jpg) no-repeat;
 }
 
 .product-item_title {
