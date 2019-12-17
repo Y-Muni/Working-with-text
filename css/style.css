@@ -93,7 +93,8 @@ p {
     /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; */
 
 .product-item:first-child {
-    background: url(../img4/cv.jpeg);
+    background: coral url(../img4/cv.jpeg) no-repeat;
+    background-position: center;
 }
 
 .product-item_title {
