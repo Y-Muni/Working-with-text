@@ -93,8 +93,18 @@ p {
     /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; */
 
 .product-item:first-child {
-    background: coral url(../img4/cv.jpeg) no-repeat;
-    background-position: center;
+    background: url(../img4/cv.jpeg) no-repeat, url(../img4/cv.jpeg) no-repeat;
+    background-color: coral;
+    background-position: top center, bottom center;
+    background-size: 500px, 200px;
+}
+
+.product-item:nth-child(2) {
+    background: url(../img4/cv.jpeg) no-repeat;
+    background-size: cover;
+    background-color: coral;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 .product-item_title {
