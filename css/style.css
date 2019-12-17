@@ -82,14 +82,19 @@ p {
 }
 
 .product-item {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: violet;
     color: #fff;
     padding: 10px 15px;
-    margin: 50px 0;
+    margin: 0 0 50px;
+    height: 100vh;
 
-    border-radius: 50px 0;
-    /*outline: 1px solid red;*/
-    box-shadow: black 0 0 20px 10px;
+    /* СКРУГЛЕНИЕ!!! border-radius: 50px 0; */
+    /* РАМКА!!! outline: 1px solid red;*/
+    /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; */
+}
+
+.product-item:first-child {
+    background: url(../img3/pic.jpg);
 }
 
 .product-item_title {
@@ -99,7 +104,10 @@ p {
 
     box-sizing: border-box;
 
-    /*могут быть и такие значения - margin: 10px 0 15px; line-height: 1;border: 1px solid #000;*/
+    /*могут быть и такие значения 
+    margin: 10px 0 15px; 
+    line-height: 1;
+    border: 1px solid #000;*/
 
     margin: 10px auto;
 
@@ -112,6 +120,8 @@ p {
 
 body {
     background-image: url(../img3/bg.png);
+    margin: 0;
+    /* тоже сво-ва по работе с картинкой!!!!! 
     background-repeat: no-repeat; 
-    background-position: center
+    background-position: center; */
 }
