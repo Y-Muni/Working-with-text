@@ -82,7 +82,7 @@ p {
 }
 
 .product-item {
-    background-color: violet;
+    background-color: chartreuse;
     color: #fff;
     padding: 10px 15px;
     margin: 0px 0 50px;
@@ -93,7 +93,7 @@ p {
     /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; */
 
 .product-item:first-child {
-    background: url(../img3/pic.jpg) no-repeat;
+    background: url(../img4/cv.jpeg);
 }
 
 .product-item_title {
