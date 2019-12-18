@@ -18,7 +18,7 @@ body {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 h3 {
@@ -28,11 +28,6 @@ h3 {
     border-bottom: 1px solid #000;
     font-size: 1.6rem;
     text-transform: uppercase;
-}
-
-#heading {
-    border-bottom: 1px solid #000;
-    font-size: 3rem;
 }
 
 .navy {
@@ -49,22 +44,22 @@ h3 {
     font-size: 1.5rem;
 }
 
-.skills {
+/* .skills {
     list-style: none;
     list-style-image: url(../img2/arrow2.png);
-}
+} */
 
 li {
     font-family: Montserrat, Arial, sans-serif;
-    color: rgb(4, 78, 4); 
+    color:black; 
     text-align: left; 
     font-style: italic;
 }
 
-ol {
+/* ol {
     display: table;
     margin: auto;
-}
+} */
 
 p {
     font-family: Roboto, Arial, sans-serif;
@@ -81,57 +76,55 @@ p {
     text-align: center;
 }
 
-.product-item {
-    background-color: chartreuse;
-    color: #fff;
-    padding: 10px 15px;
-    margin: 0px 0 50px;
-    height: 100vh;
-}
     /* СКРУГЛЕНИЕ!!! border-radius: 50px 0; */
     /* РАМКА!!! outline: 1px solid red;*/
-    /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; */
+    /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; 
+        ПОЗИЦИЯ!!! background-position: top center, bottom center;
+        КАРТИНКА НЕ ПОВТОРЯЮЩ!!! background: url(../img4/cv.jpeg) no-repeat;
+        Селектор Псевдокласса!!! .product-item:first-child
+        Ширина!!  width: 50%;
+        Высота!!  height: auto;
+     */
 
-.product-item:first-child {
-    background: url(../img4/cv.jpeg) no-repeat, url(../img4/cv.jpeg) no-repeat;
-    background-color: coral;
-    background-position: top center, bottom center;
-    background-size: 500px, 200px;
-}
-
-.product-item:nth-child(2) {
-    background: url(../img4/cv.jpeg) no-repeat;
-    background-size: cover;
-    background-color: coral;
-    background-position: right top;
-    background-attachment: fixed;
-}
-
-.product-item_title {
-    width: 50%;
-
-    height: auto;
-
-    box-sizing: border-box;
-
-    /*могут быть и такие значения 
-    margin: 10px 0 15px; 
+    /*могут быть и такие значения
+    Внешние Отступы!! margin: 10px 0 15px;
+    Внутренние отступы!!! padding: 10px 15px; 
     line-height: 1;
-    border: 1px solid #000;*/
-
-    margin: 10px auto;
-
-    padding: 10px 15px;
-}
-
-.product-item_description {
-    /*border: 1px solid #f00;*/
-}
+    border: 1px solid #000;
+    */
 
 body {
-    background-image: url(../img3/bg.png);
+    background-image: url(../img3/fon2.png);
     margin: 0;
     /* тоже сво-ва по работе с картинкой!!!!! 
-    background-repeat: no-repeat; 
-    background-position: center; */
+    background-repeat: no-repeat; */
+}
+
+.name {
+    background-color: rgb(238, 174, 11);
+    color: #fff;
+    margin: 10px 0 5px; 
+    border: 1px solid #000;
+    font-size: 1.7rem;
+    border-radius: 0px 50px;
+    box-shadow: rgba(0, 0, 0, 0.856) 0 0 20px 10px;
+}
+
+.vacancy {
+    background-color: greenyellow;
+    color: #fff;
+    margin: 20px 0 10px; 
+    border: 1px solid rgb(248, 246, 246);
+    border-radius: 10.8rem 15rem;
+}
+
+.mountains { 
+    background: url(../img4/mountains.jpg) no-repeat;
+    background-color: rgb(104, 238, 104);
+    background-position: 20px 180px;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px 100px;
+    margin: 50px 20px 50px;
+    height: 200px;
 }
