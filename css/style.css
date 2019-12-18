@@ -21,28 +21,12 @@ body {
     box-sizing: content-box;
 }
 
-h3 {
-    color: rgb(8, 223, 212); 
-    text-align: center; 
-    font-style: italic; 
-    border-bottom: 1px solid #000;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-}
-
-.navy {
-    text-decoration-color: navy;
-    text-decoration-line: overline;
-    text-decoration-style: dotted;
-    text-align: center; 
-}
-
-.text {
+/* .text {
     text-align: center;
     font-style: italic;
     text-indent: 2rem;
     font-size: 1.5rem;
-}
+} */
 
 /* .skills {
     list-style: none;
@@ -54,17 +38,8 @@ li {
     color:black; 
     text-align: left; 
     font-style: italic;
-}
-
-/* ol {
-    display: table;
-    margin: auto;
-} */
-
-p {
-    font-family: Roboto, Arial, sans-serif;
-    text-align: center;
-    font-style: italic;
+    margin: 20px 0;
+    padding: 20px 0 0 20px;
 }
 
 .size {
@@ -115,16 +90,49 @@ body {
     color: #fff;
     margin: 20px 0 10px; 
     border: 1px solid rgb(248, 246, 246);
-    border-radius: 10.8rem 15rem;
+    border-radius: 11rem 15rem;
 }
 
 .mountains { 
     background: url(../img4/mountains.jpg) no-repeat;
     background-color: rgb(104, 238, 104);
-    background-position: 20px 180px;
+    background-position: 20px 0;
     background-attachment: fixed;
     background-size: cover;
-    padding: 100px 100px;
+    padding: 0 0 40px;
     margin: 50px 20px 50px;
-    height: 200px;
+    height: 40rem;
 }
+
+.foto {
+    padding: 5px 0;
+    margin: 20px 20rem;
+    background-color: pink;
+    color: #fff;
+    border-radius: 5rem 1000rem;
+    text-align: center;
+}
+
+.work {
+    padding: 5px 0;
+    margin: 20px 20rem;
+    background-color: rgb(147, 191, 248);
+    color: #fff;
+    border-radius: 1000rem 5rem;
+    color: rgb(7, 68, 65); 
+    text-align: center; 
+    font-style: italic; 
+    border-bottom: 1px solid #000;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-family: Roboto, Arial, sans-serif;
+    text-align: left;
+    font-style: italic;
+    padding: 10px 10px;
+    margin: 20px 10px;
+    color: #000;
+}
+
