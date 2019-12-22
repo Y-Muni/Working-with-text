@@ -39,7 +39,7 @@ li {
     text-align: left; 
     font-style: italic;
     margin: 20px 0;
-    padding: 20px 0 0 20px;
+    padding: 30px 0px 0 20px;
 }
 
 .size {
@@ -69,7 +69,7 @@ li {
     */
 
 body {
-    background-image: url(../img3/fon2.png);
+    background-image: url(../img/fon2.png);
     margin: 0;
     /* тоже сво-ва по работе с картинкой!!!!! 
     background-repeat: no-repeat; */
@@ -94,14 +94,14 @@ body {
 }
 
 .mountains { 
-    background: url(../img4/mountains.jpg) no-repeat;
+    background: url(../img/mountains.jpg) no-repeat;
     background-color: rgb(104, 238, 104);
     background-position: 20px 0;
     background-attachment: fixed;
     background-size: cover;
-    padding: 0 0 40px;
-    margin: 50px 20px 50px;
-    height: 40rem;
+    padding: 300px 50px 40px 0;
+    margin: 70px 20px 10px;
+    height: 30rem;
 }
 
 .foto {
