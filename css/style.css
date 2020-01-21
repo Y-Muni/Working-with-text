@@ -21,18 +21,6 @@ body {
     box-sizing: content-box;
 }
 
-/* .text {
-    text-align: center;
-    font-style: italic;
-    text-indent: 2rem;
-    font-size: 1.5rem;
-} */
-
-/* .skills {
-    list-style: none;
-    list-style-image: url(../img/arrow2.png);
-} */
-
 li {
     font-family: Montserrat, Arial, sans-serif;
     color:black; 
@@ -51,28 +39,9 @@ li {
     text-align: center;
 }
 
-    /* СКРУГЛЕНИЕ!!! border-radius: 50px 0; */
-    /* РАМКА!!! outline: 1px solid red;*/
-    /* ТЕНЬ!!! box-shadow: black 0 0 20px 10px; 
-        ПОЗИЦИЯ!!! background-position: top center, bottom center;
-        КАРТИНКА НЕ ПОВТОРЯЮЩ!!! background: url(../img4/cv.jpeg) no-repeat;
-        Селектор Псевдокласса!!! .product-item:first-child
-        Ширина!!  width: 50%;
-        Высота!!  height: auto;
-     */
-
-    /*могут быть и такие значения
-    Внешние Отступы!! margin: 10px 0 15px;
-    Внутренние отступы!!! padding: 10px 15px; 
-    line-height: 1;
-    border: 1px solid #000;
-    */
-
 body {
     background-image: url(../img/fon2.png);
     margin: 0;
-    /* тоже сво-ва по работе с картинкой!!!!! 
-    background-repeat: no-repeat; */
 }
 
 .name {
