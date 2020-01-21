@@ -69,7 +69,7 @@ li {
     */
 
 body {
-    background-image: url(../img3/fon2.png);
+    background-image: url(../img/fon2.png);
     margin: 0;
     /* тоже сво-ва по работе с картинкой!!!!! 
     background-repeat: no-repeat; */
@@ -94,7 +94,7 @@ body {
 }
 
 .mountains { 
-    background: url(../img4/mountains.jpg) no-repeat;
+    background: url(../img/mountains.jpg) no-repeat;
     background-color: rgb(104, 238, 104);
     background-position: 20px 0;
     background-attachment: fixed;
